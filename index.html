@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="icon shortcut" href="https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_640.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria IOS</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="#">
+            <img src="https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_640.png"
+                alt="moeda com desenho de chicara de café com fumaça saindo"></a>
+        <a class="navbar" href="#saiba">Saiba mais</a><a class="navbar" href="#reserva">Faça sua reserva</a>
+        <a class="navbar" href="#produtos">Nossos produtos</a>
+    </nav>
+
+    <header>
+
+        <h1>Descubra o Sabor que Resistiu ao Tempo: Cafeteria IOS, 25 Anos de Puro Prazer</h1>
+
+        <p>Bem-vindo a um refúgio onde a tradição encontra a modernidade, e cada xícara conta uma história de 25 anos de
+            paixão pelo café. Nossa cafeteria é mais do que um local para apreciar uma bebida quente; é um santuário
+            para os amantes do café que buscam uma experiência única e atemporal.
+        </p>
+
+    </header>
+
+
+
+    <main id="produtos">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        <section class="card">
+
+                            <div class="cardtxt">
+
+                                <p>Espresso</p>
+
+                            </div>
+
+                            <img src="https://cdn.pixabay.com/photo/2017/09/04/18/39/coffee-2714970_640.jpg"
+                                alt="café tradicional">
+
+                        </section>
+                    </th>
+
+                    <th>
+                        <section class="card">
+
+                            <div class="cardtxt">
+                                <p>Capuccino</p>
+                            </div>
+                            <img src="https://cdn.pixabay.com/photo/2017/06/13/00/28/coffee-2397280_640.jpg"
+                                alt="capuccino">
+
+                        </section>
+                    </th>
+
+                    <th>
+                        <section class="card">
+
+                            <div class="cardtxt">
+                                <p>Mocaccino</p>
+                            </div>
+                            <img src="https://media.istockphoto.com/id/1698051356/pt/foto/mocaccino.webp?b=1&s=612x612&w=0&k=20&c=Pa_DRnqKMNB6NZ62Trj-iRC9l_WxK9lneSTKyJ0iuCg="
+                                alt="mocaccino">
+
+                        </section>
+                    </th>
+
+                    <th>
+                        <section class="card">
+                            <div class="cardtxt">
+                                <p>Latte</p>
+                            </div>
+                            <img src="https://cdn.pixabay.com/photo/2017/03/08/15/37/coffee-2127088_640.jpg"
+                                alt="latte">
+                        </section>
+                    </th>
+
+                    <th>
+                        <section class="card">
+                            <div class="cardtxt">
+                                <p>Chai latte</p>
+                            </div>
+                            <img id="chai"
+                                src="https://cdn.pixabay.com/photo/2017/05/30/12/19/matcha-latte-2356763_1280.jpg"
+                                alt="chai latte">
+                        </section>
+                    </th>
+                </tr>
+            </thead>
+        </table>
+
+    </main>
+
+    <footer id="saiba">
+        <div class="txtbox">
+
+
+            <h2>Aroma que Encanta, Sabor que Marca Épocas</h2>
+
+            <p>Há 25 anos, mergulhamos nas nuances dos grãos mais seletos, cultivando uma tradição que se destaca em
+                cada
+                gole. Das montanhas exuberantes aos campos ensolarados, cada grão é escolhido a dedo para garantir que
+                seu
+                café seja mais do que uma bebida: é uma jornada sensorial.</p>
+
+            <h2>O Nosso Espaço, a Sua Casa</h2>
+
+            <p>Ao longo dos anos, transformamos nossa cafeteria em um lar acolhedor para todos. Seja para um momento
+                tranquilo de reflexão, uma reunião animada entre amigos ou a pitada de energia que você precisa, nosso
+                ambiente convida a criar memórias em meio ao aroma inconfundível do nosso café.</p>
+
+            <h2>Inovação que Respeita a Tradição</h2>
+
+            <p>Não somos apenas uma cafeteria com história; somos pioneiros na fusão do tradicional com o contemporâneo.
+                Nossa paixão pela inovação nos levou a criar blends exclusivos e métodos de preparo que elevam o café a
+                uma
+                arte.</p>
+
+            <h2>Celebre Conosco</h2>
+
+            <p>Este não é apenas um café, é um marco de 25 anos de dedicação à arte do café. Junte-se a nós para
+                celebrar
+                essa jornada. Cada xícara é um brinde aos amantes do café que nos acompanharam ao longo dessa deliciosa
+                história.</p>
+
+            <p>Seja bem-vindo a <span>Cafeteria IOS</span>, onde o tempo encontra o sabor, e cada gole é uma celebração
+                de duas décadas
+                e meia de paixão pelo café.</p>
+        </div>
+        <form action="#" id="reserva">
+            <fieldset>
+                <legend>&nbsp;Reserve aqui:</legend>
+                <label for="nome">Nome:</label>
+                <label for="telefone">Telefone:</label><br>
+                <input id="nome" name="nome" type="text" required>
+                <input id="telefone" name="telefone" type="text" required><br>
+
+                <label for="whatsapp">Esse número possui WhatsApp?</label><br>
+                <input type="radio" name="whatsapp" id="sim" value="sim" required>
+                <label for="sim">Sim</label>
+                <input type="radio" name="whatsapp" id="nao" value="nao">
+                <label for="nao">Não</label><br>
+
+                <label for="quantidade">Quantidade de pessoas:</label>
+                <label for="data-hora">Data e Hora:</label><br>
+                <input id="quantidade" name="quantidade" type="number" min="3" required>
+                <input id="data-hora" name="data-hora" type="datetime-local" required><br>
+                <input type="submit">
+            </fieldset>
+        </form>
+
+        <p style="text-align: center; margin-top: 10%;">Desenvolvido por Gabriel Ferreira &copy; | Outubro 2023 </p>
+
+    </footer>
+
+</body>
+
+</html>

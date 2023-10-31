@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #573903;
+    background: url(https://media.istockphoto.com/id/1135359711/photo/roasted-coffee-beans-falling-down.webp?b=1&s=612x612&w=0&k=20&c=0hiBvtcklmZ4X8UsWHvWGa4EYKurBHx9tNf3ZGvj0kY=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background: #573903;
+    padding: 13px;
+    border-bottom: solid #442e04;
+}
+
+nav img{
+    float: left;
+    height: 18px;
+}
+
+nav a{
+    color: #fff;
+    margin: 0;
+    margin-right: 2px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000;
+}
+
+.navbar:hover{
+    border: #442e04 solid;    
+}
+
+header{
+    margin-top: 10%;
+    padding: 10%;
+    text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000;
+}
+
+table{
+    margin-top: 10%;
+    width: 100%;
+    background: #442e04;
+    text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000;
+}
+
+th img{
+    margin-top: 0;
+    width: 210px;
+    height: 150px;
+}
+
+.cardtxt{
+    font-size: 20px;
+    position: absolute;
+    height: 100px;
+}
+
+footer{
+    padding: 10%;
+}
+
+h1, h2{
+    
+    margin: 15px;   
+    text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000;
+}
+
+p{
+    text-indent: 1em;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+p span{
+    text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, 1px 0px 2px #000, 0px 1px 2px #000;
+    font-weight: 600;
+}
+
+.txtbox{
+    background: #4f313189;
+    padding: 10%;
+}
+
+form{
+    margin-top: 10%;
+    background: #4f313189;
+    padding: 10%;
+    
+}
+
+input, label{
+    margin: 10px;
+}
