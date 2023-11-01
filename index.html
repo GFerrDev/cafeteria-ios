@@ -5,6 +5,9 @@
 
     <link rel="icon shortcut" href="https://cdn.pixabay.com/photo/2018/08/30/16/57/coffee-3642712_640.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria IOS</title>
@@ -23,7 +26,7 @@
 
     <header>
 
-        <h1>Descubra o Sabor que Resistiu ao Tempo: Cafeteria IOS, 25 Anos de Puro Prazer</h1>
+        <h1>Descubra o Sabor que Resistiu ao Tempo: <span>Cafeteria IOS</span>, 25 Anos de Puro Prazer</h1>
 
         <p>Bem-vindo a um refúgio onde a tradição encontra a modernidade, e cada xícara conta uma história de 25 anos de
             paixão pelo café. Nossa cafeteria é mais do que um local para apreciar uma bebida quente; é um santuário
@@ -142,23 +145,26 @@
         </div>
         <form action="#" id="reserva">
             <fieldset>
-                <legend>&nbsp;Reserve aqui:</legend>
-                <label for="nome">Nome:</label>
-                <label for="telefone">Telefone:</label><br>
-                <input id="nome" name="nome" type="text" required>
-                <input id="telefone" name="telefone" type="text" required><br>
+                <div id="formbox">
+                    <legend>&nbsp; &nbsp; Reserve aqui:</legend><br>
 
-                <label for="whatsapp">Esse número possui WhatsApp?</label><br>
-                <input type="radio" name="whatsapp" id="sim" value="sim" required>
-                <label for="sim">Sim</label>
-                <input type="radio" name="whatsapp" id="nao" value="nao">
-                <label for="nao">Não</label><br>
+                    <label for="nome">Nome:</label>
+                    <label id="tml" for="telefone">Telefone:</label><br>
+                    <input id="nome" name="nome" type="text" required>
+                    <input id="telefone" name="telefone" type="text" required><br>
 
-                <label for="quantidade">Quantidade de pessoas:</label>
-                <label for="data-hora">Data e Hora:</label><br>
-                <input id="quantidade" name="quantidade" type="number" min="3" required>
-                <input id="data-hora" name="data-hora" type="datetime-local" required><br>
-                <input type="submit">
+                    <label for="whatsapp">Esse número possui WhatsApp?</label><br>
+                    <input type="radio" name="whatsapp" id="sim" value="sim" required>
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="whatsapp" id="nao" value="nao">
+                    <label for="nao">Não</label><br>
+
+                    <label for="quantidade">Quantidade de pessoas:</label>
+                    <label id="tml2" for="data-hora">Data e Hora:</label><br>
+                    <input id="quantidade" name="quantidade" type="number" min="3" required>
+                    <input id="data-hora" name="data-hora" type="datetime-local" required><br>
+                    <input id="btn" type="submit">
+                </div>
             </fieldset>
         </form>
 
